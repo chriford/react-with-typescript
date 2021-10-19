@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+button {
+  float: right;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.line01 {
+  border-left-color: rgb(253, 165, 0);
+  border-left-style: double;
+  border-left-width: 3px;
+  padding: .3em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container {
+  margin: 0.1em;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#span {
+  color: lightsalmon;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#h2 {
+  margin-right: 4.2em;
+  float: right;
+  text-decoration: underline;
+  margin-left: 4em;
+  color: lime;
+  font-family: bold;
+  font-size: 20pt;
+  text-shadow: 2px 2px 5px dodgerblue;
+}
+.card {
+  padding: .2em;
+  
+}
+.main-container {
+  background-image: url(../src/static/image01.jpg);
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#hr {
+ background-color: rgb(219, 219, 241);
+height: 4px;
+}
+#input {
+  background-color: rgba(5, 14, 14, 0.8);
+  height: 3em;
+  text-shadow: 2px 2px 5px rgb(56, 175, 230);
+  font-size: 20pt;
+  color: rgb(0, 255, 149)
 }
